@@ -26,7 +26,7 @@ end
 
 def print_movies(films)
   # some iteration magic and puts out the movies in a nice list
-  films.each_with_index do ||
+  films.each_with_index do | |
     {}
 end
 
