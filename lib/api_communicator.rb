@@ -17,6 +17,8 @@ def get_character_movies_from_api(character_name)
   response_string["results"].find do |character|
     character["films"]
     binding.pry
+  end
+end
 
   #  for that film
   # return value of this method should be collection of info about each film.
