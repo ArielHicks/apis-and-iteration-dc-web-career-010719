@@ -12,11 +12,11 @@ def get_character_movies_from_api(character_name)
   response_hash["results"].find do |character|
   if character["name"].downcase == character_name
 # collect those film API urls, make a web request to each URL to get the info
-
+  binding.pry
 
   response_string["results"].find do |character|
     character["films"]
-    binding.pry
+
   end
 end
 
